@@ -2,16 +2,17 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 // import Home from '../views/Home.vue'
 
-const Home = () => import('../views/Home.vue')
-const Courselearning = () => import('../views/CourseLearning.vue')
-const Coursetitle = () => import('../views/CourseTitle.vue')
-const Coursework = () => import('../views/Coursework.vue')
-const Experimentteaching = () => import('../views/ExperimentTeaching.vue')
-const Interactiongarden = () => import('../views/InteractionGarden.vue')
-const Login = () => import('../views/LogIn.vue')
-const Mobilelearning = () => import('../views/MobileLearning.vue')
-const Resourcecenter = () => import('../views/ResourceCenter.vue')
-const Signin = () => import('../views/SignIn.vue')
+
+const Home = () => import('../views/首页/Home.vue')
+const CourseLearning = () => import('../views/课程学习/CourseLearning.vue')
+const CourseContent = () => import('../views/课程信息/CourseContent.vue')
+const CourseWork = () => import('../views/课程作业/CourseWork.vue')
+const ExperimentTeaching = () => import('../views/实验教学/ExperimentTeaching.vue')
+const InteractionGarden = () => import('../views/交互园地/InteractionGarden.vue')
+const LogIn = () => import('../views/登录/LogIn.vue')
+const MobileLearning = () => import('../views/移动学习/MobileLearning.vue')
+const ResourceCenter = () => import('../views/资源中心/ResourceCenter.vue')
+const SignIn = () => import('../views/注册/SignIn.vue')
 
 Vue.use(VueRouter)
 
@@ -28,49 +29,48 @@ const routes = [
   {
     path: '/courselearning',
     name: 'courselearning',
-    component: Courselearning
+    component: CourseLearning
   },
   {
-    path: '/coursetitle',
-    name: 'coursetitle',
-    component: Coursetitle
+    path: '/coursecontent',
+    name: 'coursecontent',
+    component: CourseContent
   },
   {
     path: '/coursework',
     name: 'coursework',
-    component: Coursework
+    component: CourseWork
   },
   {
     path: '/experimentteaching',
     name: 'experimentteaching',
-    component: Experimentteaching
+    component: ExperimentTeaching
   },
   {
     path: '/interactiongarden',
     name: 'interactiongarden',
-    component: Interactiongarden
+    component: InteractionGarden
   },
   {
     path: '/login',
     name: 'login',
-    component: Login
+    component: LogIn
   },
   {
     path: '/mobilelearning',
     name: 'mobilelearning',
-    component: Mobilelearning
+    component: MobileLearning
   },
   {
     path: '/resourcecenter',
     name: 'resourcecenter',
-    component: Resourcecenter
+    component: ResourceCenter
   },
   {
     path: '/signin',
     name: 'signin',
-    component: Signin
+    component: SignIn
   },
-
 ]
 
 const router = new VueRouter({
