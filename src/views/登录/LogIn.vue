@@ -1,15 +1,24 @@
 <template>
     <div id="login">
-        登录
+        <LoginModel>
+
+        </LoginModel>
     </div>    
 </template>
 
 <script>
+import LoginModel from '@/components/login/LoginModel'
 export default {
-    name: 'Login'
+    name: 'Login',
+    components: {
+        LoginModel
+    }
 }
 </script>
 
-<style lang="stylus" scoped>
-
+<style  scoped>
+#login{
+    width: 100%;
+    height: 100%;
+}
 </style>

@@ -1,0 +1,23 @@
+{
+  "id": "1485006",
+  "name": "no name",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "6150969",
+      "name": "key",
+      "font_class": "key",
+      "unicode": "e775",
+      "unicode_decimal": 59253
+    },
+    {
+      "icon_id": "11219384",
+      "name": "user",
+      "font_class": "user",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    }
+  ]
+}

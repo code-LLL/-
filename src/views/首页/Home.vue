@@ -51,7 +51,7 @@
 </template>
 
 <script>
-import HomeModel from "./HomeModel";
+import HomeModel from "@/components/home/HomeModel";
 import HomeContent from "@/components/home/HomeContent";
 import MainImg from "@/components/home/MainImg";
 import HomeItembox from "@/components/home/HomeItembox";
