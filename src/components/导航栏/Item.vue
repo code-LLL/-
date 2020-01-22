@@ -34,6 +34,7 @@ export default {
   margin: 5px 10px;
   font-weight: 600;
   font-size: 18px;
+  font-family: 'YouYuan';
   cursor: pointer;
   position: relative;
 }

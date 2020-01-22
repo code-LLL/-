@@ -24,7 +24,7 @@ export default {
     height: 100%;
     position: relative;
     /* background:#b2dafd; */
-    border-radius: 10px;
+    border-radius: 15px;
     border: 6px solid #ffffff;
     box-shadow: 0 0 3px rgba(1, 1, 1, 0.1);
     cursor: pointer;

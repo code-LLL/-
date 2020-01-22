@@ -32,11 +32,14 @@ export default {};
 .main_img_contet h1{
   font-size: 100px;
   letter-spacing: 10px;
+  font-family: 'inpin ruiyuanti'
 }
 .main_img_contet p{
   text-align: left;
-  font-size: 20px;
+  font-size: 25px;
   letter-spacing: 2px;
-  font-weight: 600;
+  font-weight: 1000;
+  font-family: 'Mongolian Baiti';
+  text-shadow: 0 0 4px #ffffff;
 }
 </style>

@@ -93,6 +93,7 @@ export default {
     letter-spacing: 2px;
     font-weight: 600;
     font-size: 12px;
+    font-family: '等线';
     color: #5b5959;
 }
 /* 部分3 */

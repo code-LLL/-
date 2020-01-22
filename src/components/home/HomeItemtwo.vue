@@ -38,5 +38,7 @@ export default {
     font-size: 14px;
     font-weight: 500;
     letter-spacing: 1px;
+    /* font-family: '等线'; */
+
 }
 </style>
