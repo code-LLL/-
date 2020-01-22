@@ -30,7 +30,7 @@ export default {};
   width: 150px;
   height: 150px;
   left: -50px;
-  top: 20px;
+  top: 60px;
 }
 .contents::after{
   content: '';

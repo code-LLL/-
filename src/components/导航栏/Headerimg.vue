@@ -4,7 +4,7 @@
         <img src="@/assets/img/导航栏/logo.png" alt />
       </div>
       <div>
-        <img src="@/assets/img/导航栏/校名.png" alt="">
+        <img src="@/assets/img/导航栏/jxnu.png" alt="">
         <p>网络教育精品资源共享课</p>
       </div>
     </div>
@@ -17,7 +17,10 @@ export default {
 </script>
 
 <style scoped>
-
+@font-face {
+  font-family: 'YouYuan';
+  src: url('../../assets/font/YouYuan.woff2');
+}
 /* 图标内部 */
 .headimg{
   display: flex;
@@ -31,7 +34,7 @@ export default {
 .headimg > div:nth-of-type(1) {
   width: 60px;
   height: 60px;
-  margin-right: 10px;
+  margin-right: 15px;
 }
 .headimg > div:nth-of-type(2) {
   text-align: left;
@@ -42,8 +45,8 @@ export default {
 }
 .headimg > div:nth-of-type(2) > p{
   font-family: 'YouYuan';
-  font-weight: 600;
-  font-size: 13px;
+  font-weight: 900;
+  font-size: 14px;
   letter-spacing: 2px;
 }
 

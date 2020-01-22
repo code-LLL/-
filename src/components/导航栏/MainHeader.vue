@@ -66,4 +66,8 @@ export default {
 </script>
 
 <style scoped>
+@font-face {
+  font-family: 'YouYuan';
+  src: url('../../assets/font/YouYuan.woff2');
+}
 </style>
