@@ -1,5 +1,5 @@
 <template>
-  <Header v-if="!ifSign">
+  <Header >
     <HeaderImg slot="headimg"></HeaderImg>
     <Content slot="content">
       <Item slot="item" path="/home">
@@ -54,14 +54,6 @@ export default {
     Item,
     LoginItem
   },
-  computed: {
-    ifSign() {
-      return (
-        this.$route.path.indexOf("/login") != -1 ||
-        this.$route.path.indexOf("/signin") != -1
-      );
-    }
-  }
 };
 </script>
 

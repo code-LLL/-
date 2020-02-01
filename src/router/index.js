@@ -13,7 +13,6 @@ const LogIn = () => import('../views/登录/LogIn.vue')
 const MobileLearning = () => import('../views/移动学习/MobileLearning.vue')
 const ResourceCenter = () => import('../views/资源中心/ResourceCenter.vue')
 const SignIn = () => import('../views/注册/SignIn.vue')
-
 Vue.use(VueRouter)
 
 const routes = [
@@ -34,7 +33,7 @@ const routes = [
   {
     path: '/coursecontent',
     name: 'coursecontent',
-    component: CourseContent
+    component: CourseContent,
   },
   {
     path: '/coursework',
@@ -78,5 +77,8 @@ const router = new VueRouter({
   base: process.env.BASE_URL,
   routes
 })
-
+const originalPush = VueRouter.prototype.push
+VueRouter.prototype.push = function push(location) {
+  return originalPush.call(this, location).catch(err => err)
+}
 export default router
