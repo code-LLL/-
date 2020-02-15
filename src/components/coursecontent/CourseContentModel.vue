@@ -1,6 +1,6 @@
 <template>
     <div id="course-content-box">
-        <div class="course-content">
+        <div class="course-content" :style="{width:width}">
             <slot name="content-list"></slot>
             <slot name="content-box"></slot>
         </div>
@@ -9,7 +9,12 @@
 
 <script>
 export default {
-    
+    props: {
+        width: {
+            String,
+            default: '1000px'
+        },
+    }
 }
 </script>
 

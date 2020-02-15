@@ -1,7 +1,6 @@
 <template>
     <nav id="footer">
-        <span class="studio">版权所有： Copyright&copy;2019-2020  宏奕工作室 Homyit Studio</span>
-        <span class="visitor">您是第<span></span>位访客</span>
+        <span class="studio">&copy;2019-2020  宏奕工作室 Homyit Studio 有爱同行 | 踏实求新</span>
         <span class="administrtor">管理员登录</span>
     </nav>
 </template>
@@ -16,7 +15,7 @@ export default {
 #footer{
     position: relative;
     width: 100%;
-    height: 70px;
+    height: 40px;
     background: #c7e0f6;
     display: flex;
     align-items: center;
